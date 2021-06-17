@@ -38,7 +38,7 @@ const removeNote = (title) => {
 
 const saveNotes = (notes) => {
   const dataJSON = JSON.stringify(notes);
-  fs.writeFileSync("notes.json", dataJsON);
+  fs.writeFileSync("notes.json", dataJSON);
 };
 
 const loadNotes = () => {
